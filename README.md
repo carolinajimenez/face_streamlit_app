@@ -1,7 +1,13 @@
 Face Detection, Emotion Recognition, and Age, Gender and Age Prediction App
 ==============================
 
-A short description of the project.
+This Python application leverages the power of DeepFace, a deep learning library, to perform multiple tasks related to facial analysis. With this app, you can upload an image, and it will:
+
+* Detect Faces: Automatically identify and locate faces within the image.
+* Emotion Recognition: Determine the dominant emotion expressed by the detected face(s).
+* Age Prediction: Estimate the age of the person(s) in the image.
+* Gender Identification: Recognize the gender of the person(s) in the image.
+* Race Detection: Identify the dominant racial attributes of the person(s) in the image.
 
 Project Organization
 ------------
