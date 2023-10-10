@@ -1,5 +1,5 @@
 """
-Face Detection, Emotion Recognition, and Age, Gender and Age Prediction App
+Face Detection, Emotion Recognition, and Age, Gender and Race Prediction App
 DeepFace
 
 https://github.com/serengil/deepface/tree/master
