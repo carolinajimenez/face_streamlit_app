@@ -12,19 +12,23 @@ This Python application leverages the power of DeepFace, a deep learning library
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
-    ├── data               <- Images that represent emotions.
-    │
-    ├── notebooks          <- Jupyter notebooks.
-    │
-    └── src                <- Source code for use in this project.
-        ├── __init__.py    <- Makes src a Python module
-        │
-        └── app.py         <- Integrates DeepFace and creates a Streamlit app for face detection, emotion recognition, and age, gender and age prediction.
-
+      faceapp
+      ├── LICENSE
+      ├── README.md                 <- The top-level README for developers using this project.
+      ├── data                      <- Images that represent emotions.
+      │   ├── angry.jpg
+      │   ├── disgust.jpg
+      │   ├── fear.jpg
+      │   ├── happy.jpg
+      │   ├── neutral.jpg
+      │   ├── sad.jpg
+      │   └── surprise.jpg
+      ├── notebooks                 <- Jupyter notebooks.
+      │   └── deepface.ipynb
+      ├── requirements.txt          <- The requirements file for reproducing the analysis environment.
+      └── src                       <- Source code for use in this project.
+         ├── __init__.py
+         └── app.py                 <- Integrates DeepFace and creates a Streamlit app for face detection, emotion recognition, and age, gender and race prediction.
 
 Usage
 ------------
