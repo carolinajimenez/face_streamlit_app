@@ -1,4 +1,4 @@
-Face Detection, Emotion Recognition, and Age, Gender and Race Prediction App
+Emotion Recognition, and Age, Gender and Race Prediction App
 ==============================
 
 This Python application leverages the power of DeepFace, a deep learning library, to perform multiple tasks related to facial analysis. With this app, you can upload an image, and it will:

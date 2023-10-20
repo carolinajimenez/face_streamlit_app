@@ -67,12 +67,12 @@ class FaceApp:
 
 if __name__ == "__main__":
     # Set up the app
-    st.title("Face Detection, Emotion Recognition, and Age, Gender and Age Prediction App")
+    st.title("Emotion Recognition, and Age, Gender and Race Prediction App")
     st.write("")
 
     faceapp = FaceApp()
 
-    st.write("Upload an image and the app will detect faces, specify emotions, and predict age, gender and age.")
+    st.write("Upload an image.")
     # Upload the image
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
